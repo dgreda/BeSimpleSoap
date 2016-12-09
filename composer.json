@@ -1,9 +1,10 @@
 {
-    "name": "besimple/soap",
+    "name": "dgreda/soap",
     "type": "library",
     "description": "Build and consume SOAP and WSDL based web services",
-    "keywords": ["soap"],
-    "homepage": "http://besim.pl",
+    "keywords": [
+        "soap"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -17,6 +18,10 @@
         {
             "name": "Andreas Schamberger",
             "email": "mail@andreass.net"
+        },
+        {
+            "name": "Damian Gręda",
+            "email": "dj.dmg0@gmail.com"
         }
     ],
     "require": {
@@ -33,7 +38,7 @@
         "besimple/soap-client": "self.version",
         "besimple/soap-common": "self.version",
         "besimple/soap-server": "self.version",
-        "besimple/soap-wsdl":   "self.version"
+        "besimple/soap-wsdl": "self.version"
     },
     "require-dev": {
         "ext-mcrypt": "*",
@@ -42,11 +47,8 @@
         "symfony/process": "~2.3|~3.0"
     },
     "autoload": {
-        "psr-0": { "BeSimple\\": "src/" }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.3-dev"
+        "psr-0": {
+            "BeSimple\\": "src/"
         }
     }
 }
